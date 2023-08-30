@@ -1,0 +1,14 @@
+; make benchmark
+goos: openbsd
+goarch: amd64
+pkg: github.com/thimc/functional-go
+cpu: AMD Ryzen 7 5800X 8-Core Processor
+BenchmarkFilter-16              491905384              149.9 ns/op
+BenchmarkFilterUsingFor-16      619014686              114.3 ns/op
+BenchmarkFind-16                1000000000               0.8639 ns/op
+BenchmarkFindFor-16             1000000000               0.8543 ns/op
+BenchmarkMapf-16                1000000000               0.2312 ns/op
+BenchmarkReduceSum-16           1000000000               4.796 ns/op
+BenchmarkReduceSumFor-16        1000000000               4.780 ns/op
+PASS
+ok      github.com/thimc/functional-go  183.728s
