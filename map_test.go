@@ -7,6 +7,9 @@ import (
 
 func BenchmarkMapf(b *testing.B) {
 	for i := 0; i < b.N; i++ {
+		mapf[int](benchmarkArray, func(element int) int {
+			return element * 2
+		})
 	}
 }
 

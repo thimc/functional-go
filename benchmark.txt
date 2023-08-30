@@ -3,12 +3,12 @@ goos: openbsd
 goarch: amd64
 pkg: github.com/thimc/functional-go
 cpu: AMD Ryzen 7 5800X 8-Core Processor
-BenchmarkFilter-16              491905384              149.9 ns/op
-BenchmarkFilterUsingFor-16      619014686              114.3 ns/op
-BenchmarkFind-16                1000000000               0.8639 ns/op
-BenchmarkFindFor-16             1000000000               0.8543 ns/op
-BenchmarkMapf-16                1000000000               0.2312 ns/op
-BenchmarkReduceSum-16           1000000000               4.796 ns/op
-BenchmarkReduceSumFor-16        1000000000               4.780 ns/op
+BenchmarkFilter-16              479209620              154.4 ns/op
+BenchmarkFilterUsingFor-16      615640354              118.0 ns/op
+BenchmarkFind-16                1000000000               0.8454 ns/op
+BenchmarkFindFor-16             1000000000               0.8440 ns/op
+BenchmarkMapf-16                464398808              159.5 ns/op
+BenchmarkReduceSum-16           1000000000               4.965 ns/op
+BenchmarkReduceSumFor-16        1000000000               4.777 ns/op
 PASS
-ok      github.com/thimc/functional-go  183.728s
+ok      github.com/thimc/functional-go  275.970s
